@@ -7,10 +7,12 @@ layout: default
  
 
 **Description**
+
 This binary is putting together some important piece of information... Can you uncover that information? Examine this file. Do you understand its inner workings? 
 
 
 **Write-up**
+
 Ghidra decompilation:
 ![alt text](image.png)
 

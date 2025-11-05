@@ -7,6 +7,7 @@ layout: default
  
 
 **Description**
+
 A classic Crackme. Find the password, get the flag! Binary can be downloaded here. Crack the Binary file locally and recover the password. Use the same password on the server to get the flag!
 
 Additional details will be available after launching your challenge instance.
