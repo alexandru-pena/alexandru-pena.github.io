@@ -12,7 +12,9 @@ TBD
 ## Web Exploitation
 1. [SSTI 1](./pages/ssti1/ssti1.html)
 2. [Crack the Gate 1](./pages/CracktheGate1/CracktheGate1.html)
-
+3. [Trickster](./pages/Trickster/Trickster.html)
+4. [SSTI 2](./pages/ssti2/ssti2.html)
+5. [No Sql Injection](./pages/nosqli/nosqli.html)
 
 ## Reverse Engineering
 1. [WinAntiDbg0x300](./pages/winantidbg0x300/WinAntiDbg0x300.html)
