@@ -17,6 +17,7 @@ TBD
 5. [No Sql Injection](./pages/nosqli/nosqli.html)
 6. [3v@l](./pages/3val/3val.html)
 7. [Java Code Analysis!?!](./pages/web7/index.html)
+8. [byp4ss3d](./pages/web8/index.html)
 
 
 ## Reverse Engineering
