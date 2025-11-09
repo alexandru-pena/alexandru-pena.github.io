@@ -15,6 +15,9 @@ TBD
 3. [Trickster](./pages/Trickster/Trickster.html)
 4. [SSTI 2](./pages/ssti2/ssti2.html)
 5. [No Sql Injection](./pages/nosqli/nosqli.html)
+6. [3v@l](./pages/3val/3val.html)
+7. [Java Code Analysis!?!](./pages/web7/index.html)
+
 
 ## Reverse Engineering
 1. [WinAntiDbg0x300](./pages/winantidbg0x300/WinAntiDbg0x300.html)

