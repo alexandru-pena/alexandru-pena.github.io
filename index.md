@@ -8,6 +8,9 @@ User profile: https://play.picoctf.org/users/majorwiree
 
 ## Binary Exploitation
 1. [Format String 0](./pages/formatstring0/index.html)
+2. [heap 0](./pages/heap0/index.html)
+3. [PIE TIME](./pages/pietime/index.html)
+
 
 ## Web Exploitation
 1. [SSTI 1](./pages/ssti1/ssti1.html)
@@ -18,6 +21,7 @@ User profile: https://play.picoctf.org/users/majorwiree
 6. [3v@l](./pages/3val/3val.html)
 7. [Java Code Analysis!?!](./pages/web7/index.html)
 8. [byp4ss3d](./pages/web8/index.html)
+
 
 
 ## Reverse Engineering
