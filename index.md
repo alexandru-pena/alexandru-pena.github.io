@@ -7,7 +7,7 @@ Challenges from PicoCTF.
 User profile: https://play.picoctf.org/users/majorwiree
 
 ## Binary Exploitation
-TBD
+1. [Format String 0](./pages/formatstring0/index.html)
 
 ## Web Exploitation
 1. [SSTI 1](./pages/ssti1/ssti1.html)
