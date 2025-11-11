@@ -42,7 +42,7 @@ Now with all the pieces, the only thing remaining is overwriting the got entry. 
 
 - This ideia didn't work. In x64 the pointers are 8 bytes, but the virtual memory pointers are 6 bytes. This means that there are null bytes, from the moment I attempt a payload with that address it must be at the last position because everything else will be ignored by the `fgets` function.
     - The problem with that ideia, is that it means I have to write with %x 8 bytes of data to overwrite the GOT address, because it points to another memory map that has no "shared address" bytes that I can simply overwrite. This means that I have to print a lot of data and would take some time.
-    - My original ideia was to divide the writes with `%hn` only having to write 2 bytes each time per address, besides having to do this 8 times, however the null bytes wouldn't allow for this.
+    - My original ideia was to divide the writes with `%hn` only having to write 2 bytes each time per address, besides having to do this 8 times, the null bytes wouldn't allow for this.
 
 - My second ideia was to overwrite the `RIP` register directly in stack. So when I type "exit" and the `echo_valley` function terminates, it jumps to my address.
     - The problem with that is that I was not able to find any address that directly pointed there.
