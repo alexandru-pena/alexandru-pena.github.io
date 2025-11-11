@@ -7,9 +7,16 @@ Challenges from PicoCTF.
 User profile: https://play.picoctf.org/users/majorwiree
 
 ## Binary Exploitation
+Difficulties according to PicoCTF categorization.
+
+### Easy
 1. [Format String 0](./pages/formatstring0/index.html)
 2. [heap 0](./pages/heap0/index.html)
 3. [PIE TIME](./pages/pietime/index.html)
+
+### Medium
+
+1. [PIE TIME 2](./pages/pietime2/index.html)
 
 
 ## Web Exploitation
