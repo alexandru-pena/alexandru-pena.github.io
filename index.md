@@ -23,6 +23,9 @@ Difficulties according to PicoCTF categorization.
 4. [hash-only-1](./pages/hash-only-1/index.html)
 5. [hash-only-2](./pages/hash-only-2/index.html)
 6. [Echo Valley](./pages/echo-valley/index.html)
+7. [format string 2](./pages/formatstring2/index.html)
+8. [format string 3](./pages/formatstring3/index.html)
+
 
 ### Web Exploitation
 1. [SSTI 1](./pages/ssti1/ssti1.html)
