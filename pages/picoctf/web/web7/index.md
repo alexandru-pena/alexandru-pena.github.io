@@ -61,4 +61,4 @@ Obtained the flag:
 Flag: picoCTF{w34k_jwt_n0t_g00d_7745dc02}
 
 
-[back](./../..)
+[back](/index)

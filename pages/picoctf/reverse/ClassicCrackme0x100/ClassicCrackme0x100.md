@@ -71,6 +71,6 @@ print("Flag: " + "".join(flag))
 Flag: picoCTF{s0lv3_angry_symb0ls_4699696e}
 
 
-[back](./../..)
+[back](/index)
 
 

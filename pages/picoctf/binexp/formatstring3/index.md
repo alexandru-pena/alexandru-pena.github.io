@@ -156,4 +156,4 @@ Running the exploit:
 Flag: picoCTF{G07_G07?_92325514}
 
 
-[back](./../..)
+[back](/index)

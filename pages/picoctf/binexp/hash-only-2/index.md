@@ -28,4 +28,4 @@ However, because of the `PATH` variable, `/usr/local/bin` directory takes priori
 Flag: picoCTF{Co-@utH0r_Of_Sy5tem_b!n@riEs_364b3672}
 
 
-[back](./../..)
+[back](/index)

@@ -31,4 +31,4 @@ The process is repeated until "argument" reaches value 0, at that point the "res
 Flag: picoCTF{0000003F}
 
 
-[back](./../..)
+[back](/index)

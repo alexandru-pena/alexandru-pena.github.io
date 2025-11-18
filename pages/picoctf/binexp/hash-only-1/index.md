@@ -36,4 +36,4 @@ When `flaghasher` runs, instead of using the `md5sum` binary it will use `cat`, 
 Flag: picoCTF{sy5teM_b!n@riEs_4r3_5c@red_0f_yoU_c11be7b4}
 
 
-[back](./../..)
+[back](/index)

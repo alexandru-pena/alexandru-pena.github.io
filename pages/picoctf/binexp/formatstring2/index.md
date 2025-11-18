@@ -55,4 +55,4 @@ A smarter alternative to this exploit would be to do the writing in 2 parts, wor
 Flag: picoCTF{f0rm47_57r?_f0rm47_m3m_5161a699}
 
 
-[back](./../..)
+[back](/index)

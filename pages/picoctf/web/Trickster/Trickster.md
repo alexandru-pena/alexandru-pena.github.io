@@ -35,4 +35,4 @@ Visiting the file in the ´uploads´ directory with the file name, is possible t
 Flag: picoCTF{c3rt!fi3d_Xp3rt_tr1ckst3r_9ae8fb17} 
 
 
-[back](./../..)
+[back](/index)

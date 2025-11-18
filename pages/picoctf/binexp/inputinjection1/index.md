@@ -26,4 +26,4 @@ A simple input like `AAAAAAAAAA/bin/sh` allows to obtain a shell:
 Flag: picoCTF{0v3rfl0w_c0mm4nd_22530a1b}
 
 
-[back](./../..)
+[back](/index)

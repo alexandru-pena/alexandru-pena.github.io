@@ -32,4 +32,4 @@ Submited that address to the binary.
 Flag: picoCTF{b4s1c_p051t10n_1nd3p3nd3nc3_fec8b8c5}
 
 
-[back](./../..)
+[back](/index)

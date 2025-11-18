@@ -48,4 +48,4 @@ It is easier to just debug the binary and observe the flag being built in real t
 Flag: picoCTF{wELF_d0N3_mate_1c496e73}
 
 
-[back](./../..)
+[back](/index)

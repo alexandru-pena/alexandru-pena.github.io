@@ -46,4 +46,4 @@ Visited the page and obtained the flag:
 Flag: picoCTF{s3rv3r_byp4ss_77c49c68}
 
 
-[back](./../..)
+[back](/index)

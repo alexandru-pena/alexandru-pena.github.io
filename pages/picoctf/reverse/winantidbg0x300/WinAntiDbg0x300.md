@@ -147,4 +147,4 @@ Interceptor.attach(addr_NtQueryInformationProcess, {
 Flag: picoCTF{Wind0ws_antid3bg_0x300_86fcf897}
 
 
-[back](./../..)
+[back](/index)

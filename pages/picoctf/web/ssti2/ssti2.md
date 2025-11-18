@@ -34,4 +34,4 @@ This payload bypasses the filter and is able to print the flag.
 Flag: picoCTF{sst1_f1lt3r_byp4ss_6787c4d8}
 
 
-[back](./../..)
+[back](/index)

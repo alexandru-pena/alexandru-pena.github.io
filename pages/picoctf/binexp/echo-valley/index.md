@@ -153,4 +153,4 @@ io.interactive()
 Flag: picoctf{f1ckl3_f0rmat_f1asc0}
 
 
-[back](./../..)
+[back](/index)

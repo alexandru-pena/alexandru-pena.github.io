@@ -30,4 +30,4 @@ Added the header using burp.
 Flag: picoCTF{brut4_f0rc4_0d39383f}
 
 
-[back](./../..)
+[back](/index)

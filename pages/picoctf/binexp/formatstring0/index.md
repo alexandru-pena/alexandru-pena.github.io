@@ -69,4 +69,4 @@ To reach the format string vuln, it's easy now, replace RIP with the address whe
 Flag: picoCTF{7h3_cu570m3r_15_n3v3r_SEGFAULT_dc0f36c4}
 
 
-[back](./../..)
+[back](/index)

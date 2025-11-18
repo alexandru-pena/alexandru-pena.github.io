@@ -65,4 +65,4 @@ Taking the 32 lowest bits results in 4D9072BF.
 Flag: picoCTF{4D9072BF}
 
 
-[back](./../..)
+[back](/index)

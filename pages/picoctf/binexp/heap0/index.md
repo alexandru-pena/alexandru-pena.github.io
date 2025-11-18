@@ -28,4 +28,4 @@ After that we just have to use option 4 to print flag.
 Flag: picoCTF{my_first_heap_overflow_749119de}
 
 
-[back](./../..)
+[back](/index)

@@ -59,4 +59,4 @@ io.interactive()
 Flag: picoCTF{p13_5h0u1dn'7_134k_c9a04879}
 
 
-[back](./../..)
+[back](/index)

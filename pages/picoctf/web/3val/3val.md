@@ -63,4 +63,4 @@ Reading flag:
 
 Flag: picoCTF{D0nt_Use_Unsecure_f@nctions6adf3843}
 
-[back](./../..)
+[back](/index)

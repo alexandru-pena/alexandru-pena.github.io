@@ -29,4 +29,4 @@ The final argument value is: hex(1151828495+13+2+100) => 44a78282
 Flag: picoCTF{44a78282}
 
 
-[back](./../..)
+[back](/index)

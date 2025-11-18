@@ -18,4 +18,4 @@ layout: default
 Flag: picoCTF{}
 
 
-[back](./../..)
+[back](/index)

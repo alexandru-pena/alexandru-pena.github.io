@@ -62,4 +62,4 @@ According to the CTF Instructions it must be the value in hexadecimal format.
 Flag: picoCTF{00000715}
 
 
-[back](./../..)
+[back](/index)

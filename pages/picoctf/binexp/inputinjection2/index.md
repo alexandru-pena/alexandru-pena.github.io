@@ -30,4 +30,4 @@ Obtained flag:
 Flag: picoCTF{us3rn4m3_2_sh3ll_809f901a}
 
 
-[back](./../..)
+[back](/index)
