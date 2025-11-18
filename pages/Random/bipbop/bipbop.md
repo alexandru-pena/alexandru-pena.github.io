@@ -74,4 +74,4 @@ else:
 Flag: picoCTF{}
 
 
-[back](./../..)
+[back](./)
