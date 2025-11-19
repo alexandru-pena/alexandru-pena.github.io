@@ -30,6 +30,7 @@ Difficulties according to PicoCTF categorization.
 11. [heap 3](./pages/picoctf/binexp/heap3/index.html)
 
 
+#### Hard
 
 
 ### Web Exploitation
