@@ -32,6 +32,8 @@ Difficulties according to PicoCTF categorization.
 
 #### Hard
 
+1. [zero_to_hero](./pages/picoctf/binexp/zero_to_hero/index.html)
+
 
 ### Web Exploitation
 1. [SSTI 1](./pages/picoctf/web/ssti1/ssti1.html)
