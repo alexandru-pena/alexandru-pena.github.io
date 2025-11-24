@@ -31,6 +31,7 @@ Just a page with some usual commands I use for quick access. This page is not in
 - info files
 - disas 0x4008b0, +40
 - p *0x00602060@7 -> print array "p *array@len"
+- stepi -> step into
 
 **Shell**
 
