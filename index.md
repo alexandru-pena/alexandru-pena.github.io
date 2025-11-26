@@ -34,6 +34,8 @@ Difficulties according to PicoCTF categorization.
 
 1. [zero_to_hero](./pages/picoctf/binexp/zero_to_hero/index.html)
 2. [handoff](./pages/picoctf/binexp/handoff/index.html)
+3. [babygame03](./pages/picoctf/binexp/babygame03/index.html)
+
 
 
 ### Web Exploitation
