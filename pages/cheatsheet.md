@@ -32,6 +32,12 @@ Just a page with some usual commands I use for quick access. This page is not in
 - disas 0x4008b0, +40
 - p *0x00602060@7 -> print array "p *array@len"
 - stepi -> step into
+- info variables
+- set disable-randomization off
+- info symbol ADDR
+- search-pattern 0x57ef0a little 0x00007ac97a994000-0x00007ac97a99b000
+- scan libc 0x000057ef0a400000-0x000057ef0a603000 -> scan for addresses in libc that point to addresses in 2nd argument
+
 
 **Shell**
 

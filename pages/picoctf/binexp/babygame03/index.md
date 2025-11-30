@@ -31,30 +31,39 @@ Function `win` is called when the do/while loop terminates in function `main`.
 Refactored code around the binary.
 
 `main`:
+
 ![alt text](image-8.png)
 
 `init_player`:
+
 ![alt text](image-9.png)
 
 `init_map`:
+
 ![alt text](image-10.png)
 
 `print_map`:
+
 ![alt text](image-12.png)
 
 `print_lives_left`:
+
 ![alt text](image-11.png)
 
 `find_player_pos`:
+
 ![alt text](image-14.png)
 
 `find_end_tile_pos`:
+
 ![alt text](image-15.png)
 
 `move_player`:
+
 ![alt text](image-16.png)
 
 `solve_round`:
+
 ![alt text](image-17.png)
 
 - Game details:
@@ -80,6 +89,7 @@ Refactored code around the binary.
     - `player_stats` is in a lower position in the stack than the `map`.
     - To reach this position, the player must move up 4 times and to the left 15 times for X or 19 for Y.
     - I must make sure however, that I don't reach any byte with value `0x23` (#), otherwise game is terminated.
+
 ![alt text](image-18.png)
 ![alt text](image-19.png)
 
@@ -120,12 +130,14 @@ io.interactive()
 ```
 
 This code reached the last level, however there is a problem with the code logic at this point. To win the game, curr_level must be 5 but it will only be increased to 5 if is different than 4. If I do the overwrite of this variable to 5, then completed_levels will be increased to 5 and the do-while loop won't end, therefore I also have to overwrite the value of completed level. Though there is a small problem, if I overwrite the byte, when I try to go back to have the coordinates y=29 and x=89, the function `move_player` at line 23, will replace that value with 0x2e.
+
 ![alt text](image-24.png)
 ![alt text](image-26.png)
 ![alt text](image-25.png)
 
 
 Had an ideia, overwrite the EIP in stack of the function `move_player`. After some calculations, I just had to replace the last byte of EIP in the `move_player` stack frame with `0xfe` and I would jump out of the loop and straight to calling `win`. This worked, however there is an additional check in the `win` function to verify if the current level is 5, therefore flag was not printed (in this case I deleted the file `flag.txt` just to be able to see the error and 100% be sure that `win` was called, otherwise nothing was printed).
+
 ![alt text](image-27.png)
 
 Under this situation, using solution above came with another strategy. First overwrite the LSB of move_player EIP with `0x7a`, a jump to straight winning the level bypassing the check. When I finally reached level 5, then I would overwrite EIP LSB with `0xfe` to leave the loop.
@@ -195,6 +207,8 @@ overwrite_move_player_eip(b'\xfe')
 
 io.interactive()
 ```
+
+![alt text](image-28.png)
 
 **Solution**
 
